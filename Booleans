@@ -1,0 +1,22 @@
+is_sunny = True
+is_raining = False
+
+# Using Boolean variables in conditional statements
+if is_sunny:
+    print("It's a sunny day!")
+else:
+    print("It's not sunny today.")
+
+# Another example with a logical condition
+if not is_raining:
+    print("You don't need an umbrella.")
+else:
+    print("You should carry an umbrella.")
+
+# Comparing Boolean values
+a = True
+b = False
+
+print("a and b:", a and b)  # False, because both must be True for 'and' to be True
+print("a or b:", a or b)   # True, because at least one is True for 'or' to be True
+print("not a:", not a)     # False, because 'not' inverts the Boolean value
